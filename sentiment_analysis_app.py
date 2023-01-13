@@ -60,7 +60,7 @@ def main():
 
 		with col1:
 			st.info("Results")
-			#sentiment = TextBlob(raw_text).sentiment
+			sentiment = TextBlob(raw_text).sentiment
 			#st.write(sentiment)
 
 			# Emoji
