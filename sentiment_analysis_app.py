@@ -51,6 +51,10 @@ def main():
 
 	# layout
 	col1,col2 = st.columns(2)
+	
+	with st.form(key='nlpForm'):
+	raw_text = st.text_area("Enter Text Here")
+	submit_button = st.form_submit_button(label='Analyze')
 
 	with col1:
 		st.info("Results")
