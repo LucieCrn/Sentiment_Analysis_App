@@ -65,11 +65,11 @@ def main():
 
 			# Emoji
 			if sentiment.polarity > 0.2:
-				st.markdown("Sentiment:: Positive :smiley: ")
+				st.markdown("Sentiment: Positive :smiley: ")
 			elif sentiment.polarity < 0:
-				st.markdown("Sentiment:: Negative :angry: ")
+				st.markdown("Sentiment: Negative :angry: ")
 			else:
-				st.markdown("Sentiment:: Neutral 😐 ")
+				st.markdown("Sentiment: Neutral 😐 ")
 
 			# Dataframe
 			result_df = convert_to_df(sentiment)
