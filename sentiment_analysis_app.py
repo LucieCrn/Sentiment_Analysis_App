@@ -66,7 +66,7 @@ def main():
 			# Emoji
 			if sentiment.polarity > 0.2:
 				st.markdown("Sentiment:: Positive :smiley: ")
-			elif sentiment.polarity < 0.2:
+			elif sentiment.polarity < -0.2:
 				st.markdown("Sentiment:: Negative :angry: ")
 			else:
 				st.markdown("Sentiment:: Neutral 😐 ")
