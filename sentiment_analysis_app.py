@@ -1,6 +1,5 @@
 import pip
 pip.main(["install","vaderSentiment"])
-pip.main(["install","nltk"])
 pip.main(["install","textblob"])
 pip.main(["install","altair"])
 
@@ -8,8 +7,7 @@ import streamlit as st
 from textblob import TextBlob
 import pandas as pd
 import altair as alt
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-#from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
 # Fxn
