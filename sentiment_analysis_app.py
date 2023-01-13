@@ -1,5 +1,7 @@
 import pip
 pip.main(["install","vaderSentiment"])
+pip.main(["install","textblob"])
+pip.main(["install","altair"])
 
 import streamlit as st  
 from textblob import TextBlob
