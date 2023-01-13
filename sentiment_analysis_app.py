@@ -12,7 +12,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Fxn
 def convert_to_df(sentiment):
-	sentiment_dict = {'polarity':sentiment.polarity,'subjectivity':sentiment.subjectivity}
+	sentiment_dict = {'polarity':sentiment.polarity}
 	sentiment_df = pd.DataFrame(sentiment_dict.items(),columns=['metric','value'])
 	return sentiment_df
 
